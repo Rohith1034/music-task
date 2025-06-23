@@ -32,6 +32,8 @@ export default defineConfig({
     cssCodeSplit: false
   },
   server: {
-    port: 5001 // ✅ Important
-  }
+  port: parseInt(process.env.PORT) || 5001,
+  host: "0.0.0.0"
+}
+
 })
