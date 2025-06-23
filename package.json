@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "tsc && vite build && vite preview --port=5001 --strictPort",
+    "preview": "tsc && vite build && vite preview --port=6011 --strictPort",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
