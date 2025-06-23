@@ -1,0 +1,23 @@
+.filterOptionList {
+  padding: 4px 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filterOptionList:hover {
+  background-color: #ff7e3a;
+}
+
+.filterCheckbox {
+  cursor: pointer;
+}
+
+.filterLabel {
+  cursor: pointer;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

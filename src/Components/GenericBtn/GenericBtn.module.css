@@ -1,0 +1,8 @@
+.btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 6px;
+  border-radius: 11px;
+}
