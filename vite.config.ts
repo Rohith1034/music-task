@@ -33,7 +33,14 @@ export default defineConfig({
   },
   server: {
   port: parseInt(process.env.PORT) || 5001,
-  host: "0.0.0.0"
+  host: "0.0.0.0",
+  allowedHosts: ['music-task.onrender.com']
+},
+preview: {
+  port: parseInt(process.env.PORT) || 5001,
+  host: "0.0.0.0",
+  allowedHosts: ['music-task.onrender.com']
 }
+
 
 })
